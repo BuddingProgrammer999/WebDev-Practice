@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#display {
+    width: 360px;
+    padding: 20px;
+    border: none;
+    background-color: rgb(72, 72, 72);
+    font-size: 3rem;
+    color: white;
+}
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 2rem;
+    border: none;
+    background-color: rgb(86, 85, 85);
+    color: white;
+    cursor: pointer;
+}
+.operator {
+    background-color: orange;
+}
+.operator:hover {
+    background-color: rgb(203, 135, 8);
+}
+.operator:active {
+    background-color: rgb(235, 183, 88);
+}
+button:hover {
+    background-color: rgb(67, 66, 66)
+}
+button:active {
+    background-color: rgb(87, 86, 86);
+}
+.calculator {
+    background-color: rgb(43, 42, 42);
+    height: 520px;
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
