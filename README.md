@@ -1,2 +1,2 @@
 # WebDev-Practice
-Simple Web Dev Practices
+Simple Web Dev Practice Projects
